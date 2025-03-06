@@ -339,10 +339,10 @@ def process_text_file(input_file, total_questions, all_sections):
 
 if __name__ == "__main__":
     # Set up quiz questions from file
-    input_file = 'C://Users//franc//dev//jupyter//projects//ham-exams//questions_basic_2024_s2.txt'
+    input_file = 'C://Users//franc//dev//jupyter//projects//ham-exams//questions_basic_2024_s3.txt'
 
     # From this shuffled list and a defined total number of question, extract questions from each of the sections 
-    total_questions = 500
+    total_questions = 1000
     all_sections = True  # Put false if you just want one section (ensure that the input questions is the corrrect one... tmeporary)
 
     questions = process_text_file(input_file, total_questions, all_sections) # return the entire list of questions completely shuffled
